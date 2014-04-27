@@ -3,6 +3,17 @@ GettingDataAssignment
 
 Getting and Cleaning Data assignment for peer assessment
 
+Assumptions.
+1.	The getdata-projectfiles-UCI HAR Dataset zip file is downloaded and unzipped manually n the current working directory. The contents of the zip file is unzipped in a folder named “UCIHARDataset”.
+
+2.	While extracting mean and standard deviation for each feature , columns which contain the words “mean()” or “std() “ has been picked.
+
+3.	Package data.table has been installed for using some of its functions.
+
+4.	A TXT file is created of the tidy dataset in the current working directory.
+
+
+
 ## Reading the text files into data frames in R.
 ## trainDF a data frame is created from the X_train.txt which is the training dataset.
 ## testDF a data frame is created from the X_test.txt which is the test dataset.
